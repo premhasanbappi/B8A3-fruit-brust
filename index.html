@@ -29,6 +29,7 @@
         extend: {
           colors: {
             clifford: '#da373d',
+            white: '#fff',
           }
         }
       }
@@ -43,9 +44,43 @@
 
 
 <body class="font-manrope">
-
-
+    
+    
     <header>
+      <nav class="px-1">
+        <div class="navbar bg-[#F85559;] rounded-full w-360 h-30">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <label tabindex="0" class="btn text-white btn-ghost btn-circle">
+                  <svg xmlns="http://www.w3.org/2000/svg" class=" rounded- h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                </label>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <div>
+                    <li><a>Home</a></li>
+                  <li><a>About Us</a></li>
+                  <li><a>Shop</a></li>
+                  <li><a>All Fruits </a></li>
+                  </div>
+                </ul>
+              </div>
+            </div>
+            <div class="navbar-center gap-3">
+                <div class="w-7  h-9 "><img src="images/logo.png" alt=""></div>
+             <div class="text-base/10 text-white "> <a class="  text-xl">Fruit Burst</a></div>
+            </div>
+            <div class="navbar-end">
+              <div class="pr-5">
+                <input class="rounded-12" type="text" placeholder="Search" class="input input-bordered  w-24 md:w-auto " />
+               </div>
+              </div>
+              
+              </button>
+              
+                </div>
+              </button>
+            </div>
+          </div>
+      </nav>
 
     </header>
 
